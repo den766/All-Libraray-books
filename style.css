@@ -107,7 +107,7 @@ button:hover {
 }
 
 .Rbooks_container {
-  min-width: 88%;
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 3rem;
