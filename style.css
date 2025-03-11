@@ -14,7 +14,7 @@ body {
   background-color: #1d1d2a;
   margin: 5rem 3.2rem 0;
   font-family: var(--font-primary);
-  height: 400vh;
+  /* height: 400vh; */
 }
 
 /* !Book Card Styling */
@@ -117,14 +117,20 @@ button:hover {
 
 /* !Media Quiery Styling */
 
-@media (max-width: 900px) {
+@media (max-width: 950px) {
   .Rbooks_container {
     display: grid;
     grid-template-columns: repeat(2, minmax(18rem, 1fr));
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 690px) {
+
+  body{
+
+    margin: 2rem 1.2rem;
+    
+  }
   .Rbooks_container {
     width: 100%;
     display: grid;
